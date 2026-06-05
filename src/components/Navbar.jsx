@@ -47,7 +47,6 @@ function Navbar() {
               <h1 className="text-xl font-bold text-gray-900 leading-tight">
                 Hotel<span className="text-primary-600">Book</span>
               </h1>
-              <p className="text-xs text-gray-500 -mt-0.5">M-Pesa Integrated</p>
             </div>
           </Link>
 
