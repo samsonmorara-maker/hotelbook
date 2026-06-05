@@ -1,4 +1,4 @@
-# Hotel Booking App with M-Pesa Integration
+# Hotel Booking App
 
 A high-performance React application for browsing hotel rooms, filtering by preferences, and completing bookings through M-Pesa STK Push integration.
 
@@ -29,7 +29,7 @@ A high-performance React application for browsing hotel rooms, filtering by pref
 - **Receipt Generation**: Download booking receipts as text files
 - **Phone Validation**: Kenyan format validation (2547XX or 07XX)
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Frontend
 - **React 18** with Vite
