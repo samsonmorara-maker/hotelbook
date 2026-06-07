@@ -9,6 +9,7 @@ import SignUp from './pages/SignUp'
 import HowMpesaWorks from './pages/HowMpesaWorks'
 import Support from './pages/Support'
 import Footer from './components/Footer'
+import HotelMap from './components/HotelMap'
 
 function App() {
   return (
@@ -26,6 +27,15 @@ function App() {
           <Route path="/bookings" element={<BookingHistory />} />
         </Routes>
       </main>
+      
+      <div className="px-4 py-6 bg-white">
+        <h2 className="text-xl font-semibold text-center mb-4">Our Location</h2>
+        <HotelMap
+          lat={-1.286389}
+          lng={36.817223}
+          hotelName="HotelBook - Nairobi"
+        />
+      </div>
       <Footer />
     </div>
   )
