@@ -548,7 +548,7 @@ function RoomDetails() {
                     'Room Unavailable'
                   ) : (
                     <>
-                      Proceed to Checkout
+                      Checkout
                       <ArrowLeft className="w-5 h-5 rotate-180" />
                     </>
                   )}

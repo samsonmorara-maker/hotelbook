@@ -5,6 +5,7 @@ import { GoogleOAuthProvider } from '@react-oauth/google'
 import App from './App.jsx'
 import { BookingProvider } from './context/BookingContext.jsx'
 import { AuthProvider } from './hooks/AuthProvider.jsx'
+import 'leaflet/dist/leaflet.css'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
