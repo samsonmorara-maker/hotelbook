@@ -110,7 +110,7 @@ function Home() {
         <div className="flex items-center justify-between mb-8">
           <div>
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-              Available Rooms
+              Type of Rooms
             </h2>
             <p className="text-gray-500 mt-1">
               {filteredRooms.length} {filteredRooms.length === 1 ? 'room' : 'rooms'} found
