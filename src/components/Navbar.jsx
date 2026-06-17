@@ -10,6 +10,7 @@ import {
   X, 
   User
 } from 'lucide-react';
+import { icon } from 'leaflet';
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -26,6 +27,7 @@ function Navbar() {
 
   const navLinks = [
     { path: '/', label: 'Home', icon: Hotel },
+    {path: "/rooms", label:"Rooms", icon:Hotel},
     { path: '/bookings', label: 'My Bookings', icon: History },
   ];
 

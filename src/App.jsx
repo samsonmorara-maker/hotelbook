@@ -10,7 +10,7 @@ import HowMpesaWorks from './pages/HowMpesaWorks'
 import Support from './pages/Support'
 import Footer from './components/Footer'
 import HotelMap from './components/HotelMap'
-
+import RoomPage from "./pages/RoomsPage"
 function App() {
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
@@ -24,6 +24,7 @@ function App() {
           <Route path="/support" element={<Support />} />
           <Route path="/room/:id" element={<RoomDetails />} />
           <Route path="/checkout" element={<Checkout />} />
+          <Route path="/rooms" element={<RoomPage />} />
           <Route path="/bookings" element={<BookingHistory />} />
         </Routes>
       </main>
